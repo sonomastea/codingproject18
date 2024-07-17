@@ -9,8 +9,8 @@ const RateMovieButton={(moviename)}
         <div>
             <Star Rating Scale 
             name="rating"
-            starCount={5}
-            onStarClick={onStarCLick} />
+            stars={1,2,3,4,5}
+            onStarClick = { () =>movieRating{stars}} />
 
             <button onCLick={submitRating}>Submit Rating</button>
         </div>
