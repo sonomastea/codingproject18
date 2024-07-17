@@ -1,11 +1,14 @@
 import react, {useState} from 'react';
-const UploadButton () =>{
-   [isUploading] =useState(false)};
+const Upload () => {
+   [isUploading](false)};
 const handleUpload ()=>{
-    setisUploading(true);
+    [setisUploading](true);
 }; 
 return(
     <div>
     <button onCLick={handleUpload}
+    {handleUploading ? 'Uploading Image'}> 
+    </button>
     </div>
+
 );
