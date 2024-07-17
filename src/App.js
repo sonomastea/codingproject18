@@ -14,11 +14,11 @@ const setMovie=(moviename) =>
   <MovieSelector onSelectMovie={handleselectedmovie}/>
 };
   {selectedMovie && (
-  RateMovieButton = (handlemovierate).name}
+  RateMovieButton = (handlemovierate)
   
-  </Upload Button>
+  </UploadButton>
 
   </div>
-  )};
+  );
+};
 
-);
